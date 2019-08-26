@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "\"live chat\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "10.16.3"
+    },
+  "author": "David Cardenas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ts-node": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.2"
+  }
+}
